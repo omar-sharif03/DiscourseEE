@@ -1,12 +1,12 @@
 {
 "taking-moud": {
         "description": "Description of the event.",
-        "main-arguments": {
+        "core-arguments": {
                 "subject/patient": "Describe the individual or patient involved.",
                 "treatment": "Describe the treatments prescribed or undergoing.",
                 "effects": "Describe the outcomes or side effects of the treatments."
         },
-        "event-specific-arguments": {
+        "type-specific-arguments": {
                 "medications": "What are the Drugs/medications used in the Treatment?",
                 "dosage": "What is the Current or previous dosage of the Medications?",
                 "treatment-duration": "How long the subject is taking the medication?",
@@ -28,13 +28,13 @@
 },
 "relapse": {
         "description": "",
-        "main-arguments": {
+        "core-arguments": {
                 "subject/patient": "Describe the individual or patient experiencing the relapse.",
                 "relapse-event": "Describe the occurrence of taking or using addictive substances.",
                 "resuming-moud-after-relapse": "Describe the events the subject is doing or intends to follow after the last relapse dose.",
                 "effects": "Describe the outcomes or side effects of the relapse."
         },
-        "event-specific-arguments": {
+        "type-specific-arguments": {
                 "condition": "Describe the substance use history/disorder from which the subject had previously recovered/ was in the process of recovery.",
                 "trigger": "What factors or events contribute to relapse?",
                 "existing/current-medications": "Which medication did the subject use before the relapse?",
@@ -56,12 +56,12 @@
 },
 "tapering": {
         "description": "",
-        "main-arguments": {
+        "core-arguments": {
                 "subject/patient": "Describe the individual or patient involved.",
                 "effects": "Describe the outcomes or side effects of the tapering.",
                 "tapering-event": "Describe the tapering steps (drugs, start dosage, duration, goal dosage)."
         },
-        "event-specific-arguments": {
+        "type-specific-arguments": {
                 "condition": "Describe the state or situations of the subject before tapering.",
                 "trigger": "What factors or events contribute to tapering?",
                 "start-time": "When did they start tapering?",
