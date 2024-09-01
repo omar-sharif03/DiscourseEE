@@ -9,6 +9,8 @@ The `final-data.json` file contains all the annotations, while `train.json`, `de
     * `argument-types`: in the dictionary, the first level is argument types *(core, type-specific, subject-effect)* arguments.
         * `role`: corresponding role values for each event and argument type.
         * `value-list`: a list of tuples where the first element is annotation and the second element mentions whether it is *explicit, implicit, or scattered*.
+          
+![EAE-events-arguments](https://github.com/user-attachments/assets/3601aa48-a9f6-40ac-a0ed-ad8777ab20cd)
 
 ## 🧑🏻‍💻 Read the Dataset
 The following instructions will show how to read and use the dataset. 
