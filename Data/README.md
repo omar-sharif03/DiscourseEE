@@ -52,3 +52,5 @@ for dt in data[:2]: #going over 2 samples of the data file
             for value, typ in values_list:
                 print(f'{role}: {value} - {typ}') #value is argument value and typ is type(explicit, implicit, scattered)
 ```
+----
+**Load the data in Google Colab** [Demo Notebook for Data Reading & Statistics](https://github.com/omar-sharif03/DiscourseEE/blob/main/Data/DiscourseEE-Data_Reading_%26_Data_Statistics.ipynb) 
