@@ -1,0 +1,8 @@
+{
+"batch-description_guided": "Concisely extract the following arguments from the post comment pair. Do not use more than 12 words to describe an argument. Return 'null' if any arugment is not present. Precisely give the output, no extra description is needed",
+"batch-question_guided": "Concisely extract the following arguments from the post comment pair. Do not use more than 12 words to describe an argument. Return 'null' if any arugment is not present. Precisely give the output, no extra description is needed",
+"isolated-description_guided": "Concisely extract the following argument from the post comment pair. Do not use more than 12 words to describe the argument. Return 'null' if an arugment is not present. Precisely give the output, no extra description is needed",
+"isolated-question_guided": "Concisely extract the following argument from the post comment pair. Do not use more than 12 words to describe an argument. Return 'null' if any arugment is not present. Precisely give the output, no extra description is needed"
+
+}
+      

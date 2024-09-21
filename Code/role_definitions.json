@@ -1,0 +1,87 @@
+{
+"taking-moud": {
+        "description": "Description of the event.",
+        "main-arguments": {
+                "subject/patient": "Describe the individual or patient involved.",
+                "treatment": "Describe the treatments prescribed or undergoing.",
+                "effects": "Describe the outcomes or side effects of the treatments."
+        },
+        "event-specific-arguments": {
+                "medications": "What are the Drugs/medications used in the Treatment?",
+                "dosage": "What is the Current or previous dosage of the Medications?",
+                "treatment-duration": "How long the subject is taking the medication?",
+                "manner": "How are medications taken orally/ sublingually/ as injections?",
+                "frequency": "How often are medications taken (per day, week, month)?",
+                "timing": "When medications are taken (night, morning, etc.)?",
+                "purpose": "What are the reasons or intentions behind this medication?"
+        },
+        "subject-effect-arguments": {
+                "age": "What is the Age of the subject/patient?",
+                "gender": "What is the Gender of the subject/patient?",
+                "conditions": "What are the Pre-existing or co-morbid conditions of the subject/patient?",
+                "side-effects": "What are the side effects the subject is experiencing or expects to experience?",
+                "severity": "How severe are the side effects?",
+                "start-time": "When did the subject start experiencing the side effects?",
+                "side-effect-duration": "How long has the subject been experiencing the side effects?",
+                "intervention": "What measures are taken to address or reduce side effects?"
+        }
+},
+"relapse": {
+        "description": "",
+        "main-arguments": {
+                "subject/patient": "Describe the individual or patient experiencing the relapse.",
+                "relapse-event": "Describe the occurrence of taking or using addictive substances.",
+                "resuming-moud-after-relapse": "Describe the events the subject is doing or intends to follow after the last relapse dose.",
+                "effects": "Describe the outcomes or side effects of the relapse."
+        },
+        "event-specific-arguments": {
+                "condition": "Describe the substance use history/disorder from which the subject had previously recovered/ was in the process of recovery.",
+                "trigger": "What factors or events contribute to relapse?",
+                "existing/current-medications": "Which medication did the subject use before the relapse?",
+                "relapse-substance": "Which substance was used in the relapse?",
+                "relapse-duration": "How long does the relapse persist?",
+                "relapse-intervention": "What measures are taken to address or prevent the relapse?",
+                "waiting-time": "Waiting time after the last dose of relapse?"
+        },
+        "subject-effect-arguments": {
+                "age": "What is the Age of the subject/patient?",
+                "gender": "What is the Gender of the subject/patient?",
+                "conditions": "What are the Pre-existing or co-morbid conditions of the subject/patient?",
+                "side-effects": "What are the side effects the subject is experiencing or expects to experience?",
+                "severity": "How severe are the side effects?",
+                "start-time": "When did the subject start experiencing the side effects?",
+                "side-effect-duration": "How long has the subject been experiencing the side effects?",
+                "intervention": "What measures are taken to address or reduce side effects?"
+        }
+},
+"tapering": {
+        "description": "",
+        "main-arguments": {
+                "subject/patient": "Describe the individual or patient involved.",
+                "effects": "Describe the outcomes or side effects of the tapering.",
+                "tapering-event": "Describe the tapering steps (drugs, start dosage, duration, goal dosage)."
+        },
+        "event-specific-arguments": {
+                "condition": "Describe the state or situations of the subject before tapering.",
+                "trigger": "What factors or events contribute to tapering?",
+                "start-time": "When did they start tapering?",
+                "type": "Is the subject self-tapering or following prescribed tapering?",
+                "taper-medications": "What are the drugs/medications used during tapering?",
+                "initial-dosage": "What are the initial dosages of the drugs?",
+                "current-dosage": "What is the current dosage of the drugs?",
+                "goal-dosage": "What is the goal dosage the subject wants to achieve?",
+                "target-duration": "How long does it take to go from the start to the intended dosage or quit?"
+        },
+        "subject-effect-arguments": {
+                "age": "What is the Age of the subject/patient?",
+                "gender": "What is the Gender of the subject/patient?",
+                "conditions": "What are the Pre-existing or co-morbid conditions of the subject/patient?",
+                "side-effects": "What are the side effects the subject is experiencing or expects to experience?",
+                "severity": "How severe are the side effects?",
+                "start-time": "When did the subject start experiencing the side effects?",
+                "side-effect-duration": "How long has the subject been experiencing the side effects?",
+                "intervention": "What measures are taken to address or reduce side effects?"
+        }
+}
+}
+      
