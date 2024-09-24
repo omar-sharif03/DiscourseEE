@@ -106,7 +106,7 @@
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Dataset</span>
                   </a>
                 </span>
                       
@@ -172,6 +172,30 @@
             Additionally, we formulate argument extraction as a text generation problem to facilitate the extraction of complex argument types. We provide a comprehensive evaluation of state-of-the-art models and highlight critical open challenges in generative event extraction. 
           </p>
         </div>
+        <h2 class="title is-3">Event Ontology and Annotation</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/EAE-events-arguments" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Event ontology of DiscourseEE dataset
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/EAE-annotation-sample.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Example annotation in DiscourseEE. Core arguments capture the key aspects of the advice, while type-specific, subject-specific, and effect-specific arguments capture the fine-grained details. An argument can be explicit, implicit, or scattered throughout the document, e.g., as the individual is tapering suboxone, the goal dosage is `0mg.' which is not directly mentioned in the text. We separately annotate the arguments from posts and comments. However, due to label sparsity, we merge them during model evaluation. 
+          The argument value is set to `null' if absent, and multiple values for a role are comma-separated.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/EAE-v2-annotation-pipeline.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         DiscourseEE development pipeline
+       </h2>
+     </div>
       </div>
     </div>
   </div>
