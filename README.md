@@ -1,7 +1,7 @@
 ## 📣 Announcements
 * Please access **DiscourseEE** from [this folder](https://github.com/omar-sharif03/DiscourseEE/tree/main/Data). You can also download it from [Huggingface](https://huggingface.co/datasets/omar-sharif03/DiscourseEE).
 * All the model predictions are released for reproducibility. Check out [this folder](https://github.com/omar-sharif03/DiscourseEE/tree/main/Predictions-Results) and check the [demo notebook](https://github.com/omar-sharif03/DiscourseEE/blob/main/Predictions-Results/Evaluation.ipynb) to reproduce the results we reported in the paper.
-* To facilitate further experimentation associated codes are release [here](https://github.com/omar-sharif03/DiscourseEE/tree/main/Code)
+* To facilitate further experimentation, associated codes are released [here](https://github.com/omar-sharif03/DiscourseEE/tree/main/Code).
 
 ----
 
