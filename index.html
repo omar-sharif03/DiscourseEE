@@ -79,7 +79,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/abs/2410.03594" target="_blank"
+                        <a href="https://aclanthology.org/2024.emnlp-main.673.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -273,7 +273,7 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
+      <h2 class="title">Presentation</h2>
 
       <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
           </iframe>
@@ -281,15 +281,32 @@
       </div>
     </div>
   </section>
-<!--End paper poster -->
-
+<!--End paper poster
+ -->
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{will update it soon
-        }
+      <pre><code>@inproceedings{sharif-etal-2024-explicit,
+    title = "Explicit, Implicit, and Scattered: Revisiting Event Extraction to Capture Complex Arguments",
+    author = "Sharif, Omar  and
+      Gatto, Joseph  and
+      Basak, Madhusudan  and
+      Preum, Sarah Masud",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.673/",
+    doi = "10.18653/v1/2024.emnlp-main.673",
+    pages = "12061--12081",
+    abstract = "Prior works formulate the extraction of event-specific arguments as a span extraction problem, where event arguments are explicit {---} i.e. assumed to be contiguous spans of text in a document. In this study, we revisit this definition of Event Extraction (EE) by introducing two key argument types that cannot be modeled by existing EE frameworks. First, implicit arguments are event arguments which are not explicitly mentioned in the text, but can be inferred through context. Second, scattered arguments are event arguments that are composed of information scattered throughout the text. These two argument types are crucial to elicit the full breadth of information required for proper event modeling.To support the extraction of explicit, implicit, and scattered arguments, we develop a novel dataset, DiscourseEE, which includes 7,464 argument annotations from online health discourse. Notably, 51.2{\%} of the arguments are implicit, and 17.4{\%} are scattered, making DiscourseEE a unique corpus for complex event extraction. Additionally, we formulate argument extraction as a text generation problem to facilitate the extraction of complex argument types. We provide a comprehensive evaluation of state-of-the-art models and highlight critical open challenges in generative event extraction. Our data and codebase are available at https://omar-sharif03.github.io/DiscourseEE."
+}
         </code>
       </pre>
     </div>
